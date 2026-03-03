@@ -84,3 +84,6 @@ pnpm-debug.log*
 *.bak
 *.tmp
 *.temp
+
+# Generated output files
+backend/outputs/
