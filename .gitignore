@@ -1,0 +1,86 @@
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# PYTHON (Backend)
+# ===============================
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables
+.env
+.env.*
+backend/.env
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ===============================
+# NODE / FRONTEND
+# ===============================
+node_modules/
+frontend/node_modules/
+
+# Build output
+build/
+frontend/build/
+.next/
+.out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lockfiles (optional — keep if team project)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===============================
+# IDE / EDITORS
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# DATABASE / RUNTIME FILES
+# ===============================
+*.sqlite3
+*.db
+*.log
+
+# ===============================
+# MISC
+# ===============================
+*.bak
+*.tmp
+*.temp

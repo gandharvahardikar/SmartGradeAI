@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+}
+
+/* Header */
+.header {
+  background: #1e293b;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+.header p {
+  margin-top: 5px;
+  color: #cbd5f5;
+}
+
+/* Layout */
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs */
+label {
+  font-weight: 600;
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Info */
+.info ul {
+  padding-left: 20px;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+/* Loader */
+.loader-card {
+  text-align: center;
+}
+
+.spinner {
+  width: 45px;
+  height: 45px;
+  border: 5px solid #ddd;
+  border-top: 5px solid #2563eb;
+  border-radius: 50%;
+  margin: auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Result */
+.result h2 {
+  margin-bottom: 15px;
+}
+
+.total-score {
+  background: #ecfeff;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.page {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.bar {
+  background: #e5e7eb;
+  height: 10px;
+  border-radius: 6px;
+  margin: 8px 0;
+}
+
+.fill {
+  height: 100%;
+  background: #22c55e;
+  border-radius: 6px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .main {
+    padding: 20px;
+  }
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background: #16a34a;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.download-btn:hover {
+  background: #15803d;
+}

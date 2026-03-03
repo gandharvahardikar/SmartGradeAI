@@ -1,0 +1,28 @@
+# ── Web framework ──
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# ── PDF handling ──
+pymupdf>=1.25.0
+
+# ── OCR engines ──
+easyocr==1.7.1
+pytesseract==0.3.10
+
+# ── ML / Deep Learning ──
+torch>=2.0.0
+torchvision>=0.15.0
+transformers==4.41.0
+sentencepiece>=0.1.99
+sentence-transformers==3.0.0
+
+# ── Image processing ──
+opencv-python-headless==4.10.0.84
+Pillow>=10.0.0
+
+# ── Text comparison ──
+python-Levenshtein==0.25.1
+
+# ── Misc ──
+numpy>=1.24.0
